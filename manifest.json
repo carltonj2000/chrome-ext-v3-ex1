@@ -14,7 +14,7 @@
       "128": "/assets/icons/icon128.png"
     }
   },
-  "permissions": ["contextMenus", "notifications", "storage"],
+  "permissions": ["contextMenus", "notifications", "storage", "tts"],
   "background": {
     "service_worker": "background.js"
   }

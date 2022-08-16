@@ -27,4 +27,5 @@ chrome.storage.onChanged.addListener((changes, namespace) => {
 reset.addEventListener("click", () => {
   chrome.storage.local.clear();
   text.value = "";
+  chrome.tts.speak("Hello, world.");
 });
